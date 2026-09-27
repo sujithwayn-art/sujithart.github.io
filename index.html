@@ -1,149 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>SUJITH PS — VFX Artist</title>
-    <meta name="description" content="Sujith PS — VFX Artist, Compositor, 3D & CGI.">
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sujith PS — VFX Artist, Compositor, 3D & CGI">
+  <title>Sujith PS — VFX Artist</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header class="topbar">
+    <a class="logo" href="#top">LOGO</a>
 
-    <!-- HEADER -->
-    <header class="header">
-        <a href="#top" class="logo">SUJITH PS</a>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
 
-        <nav class="nav">
-            <a href="#about">ABOUT</a>
-            <a href="#showreel">SHOWREEL</a>
-            <a href="#connect">CONNECT</a>
-        </nav>
-    </header>
+    <nav class="menu">
+      <a href="#about">ABOUT</a>
+      <a href="#work">WORK</a>
+      <a href="#connect">CONNECT</a>
+    </nav>
+  </header>
 
+  <main id="top">
 
-    <main id="top">
+    <!-- Large image / showreel area -->
+    <section class="hero">
+      <div class="hero-image">
+        <div class="hero-placeholder">
+          <span>IMAGE / SHOWREEL</span>
+        </div>
+      </div>
+    </section>
 
-        <!-- HERO -->
-        <section class="hero">
-            <div class="hero-content">
-                <h1>SUJITH PS</h1>
+    <!-- Name -->
+    <section class="name-block">
+      <h1>SUJITH PS</h1>
+    </section>
 
-                <p class="hero-role">
-                    VFX ARTIST / COMPOSITOR / 3D & CGI
-                </p>
-            </div>
-        </section>
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-fields">
+        <p class="label">FIELDS</p>
+        <ul>
+          <li>VFX</li>
+          <li>COMPOSITING</li>
+          <li>3D</li>
+          <li>CGI</li>
+        </ul>
+      </div>
 
-
-        <!-- ABOUT -->
-        <section id="about" class="section about">
-
-            <div class="section-label">
-                ABOUT
-            </div>
-
-            <div class="section-content">
-
-                <h2>
-                    VFX Artist / Compositor / 3D & CGI
-                </h2>
-
-                <p>
-                    I create visual effects and digital imagery,
-                    working across compositing, 3D and CGI with
-                    a focus on cinematic visual storytelling.
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- SHOWREEL -->
-        <section id="showreel" class="section showreel">
-
-            <div class="section-label">
-                SHOWREEL
-            </div>
-
-            <div class="section-content">
-
-                <div class="video-container">
-
-                    <!-- Replace this with your showreel later -->
-
-                    <div class="video-placeholder">
-                        <span>SHOWREEL</span>
-                        <button class="play-button" aria-label="Play showreel">
-                            ▶
-                        </button>
-                    </div>
-
-                </div>
-
-                <p class="video-description">
-                    VFX · COMPOSITING · 3D · CGI
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- CONNECT -->
-        <section id="connect" class="section connect">
-
-            <div class="section-label">
-                CONNECT
-            </div>
-
-            <div class="section-content">
-
-                <h2>
-                    LET'S WORK TOGETHER
-                </h2>
-
-                <a href="mailto:your@email.com" class="email">
-                    your@email.com
-                </a>
-
-                <div class="social-links">
-
-                    <a href="#" target="_blank">Instagram</a>
-
-                    <a href="#" target="_blank">ArtStation</a>
-
-                    <a href="#" target="_blank">LinkedIn</a>
-
-                    <a href="#" target="_blank">YouTube</a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer class="footer">
-
-        <p>
-            © 2026 SUJITH PS
+      <div class="about-bio">
+        <p class="label">BIO</p>
+        <p class="bio-text">
+          VFX artist and compositor working across 3D, CGI and visual effects,
+          with a focus on cinematic imagery and visual storytelling.
         </p>
+      </div>
+    </section>
 
-        <p>
-            VFX ARTIST / COMPOSITOR / 3D & CGI
-        </p>
+    <!-- Connect -->
+    <section class="connect" id="connect">
+      <a class="email" href="mailto:your@email.com">your@email.com</a>
 
-    </footer>
+      <div class="social-links">
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" target="_blank" rel="noopener">ArtStation</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </section>
 
+  </main>
 
-    <script src="script.js"></script>
+  <footer>
+    <span>© 2026 SUJITH PS</span>
+    <span>VFX / CGI</span>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
